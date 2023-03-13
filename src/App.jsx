@@ -12,25 +12,24 @@ import Welcome from "./components/Welcome";
 function App() {
   return (
     <div className="App">
-
       <section>
         <Welcome />
       </section>
 
       <section>
-        <Nav/>
+        <Nav />
       </section>
 
       <section>
-        <Hero/>
+        <Hero />
       </section>
 
-      {/* <section>
+      <section>
         <About />
       </section>
 
-      <section>
-        <Team/>
+      {/* <section>
+        <Team />
       </section>
 
       <section>
@@ -43,8 +42,7 @@ function App() {
 
       <section>
         <Footer />
-      </section>
-       */}
+      </section> */}
     </div>
   );
 }
