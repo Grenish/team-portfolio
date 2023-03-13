@@ -3,13 +3,13 @@ import "../index.css";
 
 const Nav = () => {
   return (
-    <div className="header">
-      <nav>
-        <span>
-          Decagon
+    <header className="header absolute">
+      <nav className="sm:p-10 p-5">
+        <span className="sm:text-3xl text-2xl cursor-default">
+          Exsolve
         </span>
       </nav>
-    </div>
+    </header>
   );
 };
 

@@ -18,7 +18,7 @@ const Welcome = () => {
         "வணக்கம்।",
       ],
       typeSpeed: 50,
-      backSpeed: 40,
+      backSpeed: 30,
       loop: true,
       showCursor: true,
       css: `
@@ -35,7 +35,7 @@ const Welcome = () => {
   }, []);
 
   return (
-    <div className="welcome">
+    <div className="welcome md:text-[6rem] sm:text-5xl text-3xl">
       <div ref={typedRef} style={{zIndex:'10'}} id="typed-text"></div>
 
       <div className="scroll-mouse"></div>
