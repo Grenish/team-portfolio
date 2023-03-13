@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Typed from "typed.js";
 
 const Welcome = () => {
@@ -37,6 +37,9 @@ const Welcome = () => {
   return (
     <div className="welcome">
       <div ref={typedRef} style={{zIndex:'10'}} id="typed-text"></div>
+
+      <div className="scroll-mouse"></div>
+
       <div className="color">
         <div className="color1"></div>
         <div className="color2"></div>
