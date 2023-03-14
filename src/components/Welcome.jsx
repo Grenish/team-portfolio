@@ -36,7 +36,7 @@ const Welcome = () => {
 
   return (
     <div className="welcome md:text-[6rem] sm:text-5xl text-3xl">
-      <div ref={typedRef} style={{zIndex:'10'}} id="typed-text"></div>
+      <div ref={typedRef} className='h-[10vh]' style={{zIndex:'10'}} id="typed-text"></div>
 
       <div className="scroll-mouse"></div>
 

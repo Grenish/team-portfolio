@@ -28,11 +28,11 @@ function App() {
         <About />
       </section>
 
-      {/* <section>
+      <section>
         <Team />
       </section>
 
-      <section>
+      {/* <section>
         <Testimonials />
       </section>
 

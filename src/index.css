@@ -28,6 +28,38 @@ body {
   box-sizing: border-box;
 }
 
+
+
+.custom-cursor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  transition: transform 1s ease-in-out;
+  z-index: 9999;
+}
+
+.pointer {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color4);
+  
+  transition: transform 1s ease-in-out;
+}
+
+.custom-cursor-clicked {
+  transform: scale(1.5);
+  opacity: 0.5;
+}
+
 /* Firefox */
 * {
   scrollbar-width: thin;
@@ -268,6 +300,5 @@ body {
 }
 
 .about{
-  background: url(./assets/patterns2.svg);
-  background-size: cover;
+  background: linear-gradient(180deg, #9ccd62, #c9d39a, #e0ddca)
 }

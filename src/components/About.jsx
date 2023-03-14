@@ -4,9 +4,9 @@ const About = () => {
   return (
     <div className=" about w-full h-[100vh] ">
       <div className="w-full h-full flex items-center justify-center">
-        <div className="w-[50%] flex flex-col">
-          <span className="text-center text-6xl">Who Are We?</span>
-          <span className="text-center text-lg mt-10">
+        <div className="md:w-[50%] w-[80%] flex flex-col">
+          <span className="text-center md:text-6xl text-3xl text-palette1-4">Who Are We?</span>
+          <span className="text-center md:text-lg text-sm md:mt-10 mt-2 text-palette1-4">
             Exsolve is a startup business idea focused on providing high-quality
             web development services to clients through freelancing. Our team of
             web developers has expertise in various web development technologies
