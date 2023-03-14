@@ -302,3 +302,9 @@ body {
 .about{
   background: linear-gradient(180deg, #9ccd62, #c9d39a, #e0ddca)
 }
+
+.team{
+  background: url(./assets/mesh.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
