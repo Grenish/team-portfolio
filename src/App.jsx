@@ -32,11 +32,11 @@ function App() {
         <Team />
       </section>
 
-      {/* <section>
+       <section>
         <Testimonials />
       </section>
 
-      <section>
+      {/* <section>
         <Contact />
       </section>
 

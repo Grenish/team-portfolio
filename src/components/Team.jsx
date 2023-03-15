@@ -5,15 +5,18 @@ import p7 from "../assets/p7.jpeg";
 
 const Team = () => {
   return (
-    <div className="team w-full md:h-[100vh] h-auto flex flex-col justify-center items-center bg-[#fff7fa]">
-      <div className="w-[80%] h-full flex flex-col justify-evenly items-center">
-        <span className="md:text-5xl text-xl md:mt-5 mt-[50px]">Our Team</span>
-        <div className="w-full h-full flex md:flex-nowrap flex-wrap md:justify-between md:mt-0 mt-[100px] items-center">
-          <div className="w-[300px] h-auto flex flex-col bg-palette1-1 rounded-xl md:my-0 mb-20 items-center border-palette1-4 drop-shadow-xl">
+    <div className="team w-full h-auto flex flex-col justify-center items-center bg-[#fff7fa]">
+      <div className="w-[80%] h-full flex flex-col items-center">
+        <span className="md:text-5xl text-2xl text-palette1-4 md:my-[20px] my-[20px]">
+          Our Team
+        </span>
+        <span className="md:text-sm text-sm mb-[50px] text-palette1-4">Meet the expert minds of Exsolve</span>
+        <div className="w-full h-full flex lg:flex-nowrap flex-wrap md:justify-between justify-center items-center md:mb-10 mb-0">
+          <div className="md:w-[300px] w-[290px] h-auto flex flex-col bg-palette1-1 rounded-xl lg:mb-0 mb-[50px] items-center border-palette1-4 drop-shadow-xl">
             <img
               src={p4}
               alt=""
-              className="w-[250px] h-[300px] object-cover rounded-4xl -translate-y-5 hover:-translate-y-6 transition"
+              className="md:w-[250px] w-[230px] h-[300px] object-cover rounded-4xl -translate-y-5 hover:-translate-y-6 transition drop-shadow-2xl"
             />
             <span>Grenish Rai</span>
             <span className="text-xs">Founder</span>
@@ -47,11 +50,11 @@ const Team = () => {
               </a>
             </span>
           </div>
-          <div className="w-[300px] h-auto flex flex-col bg-palette1-1 rounded-xl md:my-0 mb-20 items-center border-palette1-4 drop-shadow-xl">
+          <div className="md:w-[300px] w-[290px] h-auto flex flex-col bg-palette1-1 rounded-xl lg:mb-0 mb-[50px] items-center border-palette1-4 drop-shadow-xl">
             <img
               src={p3}
               alt=""
-              className="w-[250px] h-[300px] object-cover rounded-4xl -translate-y-5 hover:-translate-y-6 transition"
+              className="md:w-[250px] w-[230px] h-[300px] object-cover rounded-4xl -translate-y-5 hover:-translate-y-6 transition drop-shadow-2xl"
             />
             <span>Gagan Sharma</span>
             <span className="text-xs">Founder</span>
@@ -85,11 +88,11 @@ const Team = () => {
               </a>
             </span>
           </div>
-          <div className="w-[300px] h-auto flex flex-col bg-palette1-1 rounded-xl md:my-0 mb-20 items-center border-palette1-4 drop-shadow-xl">
+          <div className="md:w-[300px] w-[290px] h-auto flex flex-col bg-palette1-1 rounded-xl md:my-0 mb-20 items-center border-palette1-4 drop-shadow-xl">
             <img
               src={p7}
               alt=""
-              className="w-[250px] h-[300px] object-cover rounded-4xl -translate-y-5 hover:-translate-y-6 transition"
+              className="md:w-[250px] w-[230px] h-[300px] object-cover rounded-4xl -translate-y-5 hover:-translate-y-6 transition drop-shadow-2xl"
             />
             <span>Ayush Baral</span>
             <span className="text-xs">Intern</span>
@@ -123,6 +126,7 @@ const Team = () => {
               </a>
             </span>
           </div>
+          <div className="w-[300px] h-[390px] lg:none md:none hidden bg-palette1-1 rounded-xl md:my-0 mb-20 items-center border-palette1-4 drop-shadow-xl"></div>
         </div>
       </div>
     </div>
